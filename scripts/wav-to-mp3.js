@@ -26,7 +26,9 @@ fs.readdirSync("./" + set).forEach(file => {
 
 function convert(base, name) {
   const sourceFile = path.join(base, name + ".wav");
-  const outputFile = path.join(base, name + ".wav");
+  const outputFile = path.join(base, name + ".mp3");
   console.log("Processing", sourceFile);
-  exec(`ffmpeg -i ${sourceFile} -codec:a libmp3lame -qscale:a 3 ${outputFile}`);
+  const cmd = `ffmpeg -i ${sourceFile} -codec:a libmp3lame -qscale:a 3 ${outputFile}`;
+  console.log(cmd);
+  console.log(cmd, exec(cmd));
 }
