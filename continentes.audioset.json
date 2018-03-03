@@ -32,7 +32,7 @@
   },
   "samples": {
     "ossie": {
-      "filename": "CountOssieEthiopianSerenade",
+      "filename": "filename",
       "meta": {
         "album": "Count Ossie & The Mystic Revelation Of Rastafari",
         "artist": "Count ossie",
@@ -42,7 +42,7 @@
       }
     },
     "orillas": {
-      "filename": "Cumbia en la India",
+      "filename": "orillas",
       "meta": {
         "album": "A Orillas del Magdalena",
         "artist": "Andres Landero y Su Conjunto",
@@ -52,7 +52,7 @@
       }
     },
     "mocita": {
-      "filename": "Manuel Agujetas - de una mocita - Manolo Sanlucar-Bulerias",
+      "filename": "mocita",
       "meta": {
         "album": "Por Derecho",
         "artist": "El Agujetas",
@@ -62,7 +62,7 @@
       }
     },
     "nubian": {
-      "filename": "Nubian Rhythms",
+      "filename": "nubian",
       "meta": {
         "album": "Music of the Nubians; Aswan; Egypt",
         "artist": "Varios",
@@ -72,7 +72,7 @@
       }
     },
     "tabla": {
-      "filename": "Percussion sur Tabla et Ghara",
+      "filename": "tabla",
       "meta": {
         "album": "L'Algoza Du Sind",
         "artist": "Khamisu Khan",
@@ -82,7 +82,7 @@
       }
     },
     "pae": {
-      "filename": "Te Hia'Ai Ora - Pae",
+      "filename": "pae",
       "meta": {
         "album": "South Pacific Drums",
         "artist": "Te Hia'Ai Ora",
@@ -91,9 +91,8 @@
         "year": "1965"
       }
     },
-
     "mississipi": {
-      "filename": "Mississippi_John_Hurt--Stack_O_Lee_Blues",
+      "filename": "mississipi",
       "meta": {
         "album": "78 rpm varios",
         "artist": "Mississippi John Hurt",
@@ -103,8 +102,7 @@
       }
     },
     "camino": {
-      "filename":
-        "Atahualpa Yupanqui - Camino en los valles - Camino Del Indio",
+      "filename": "camino",
       "meta": {
         "album": "Camino Del Indio",
         "artist": "Atahualpa Yupanqui",
@@ -114,7 +112,7 @@
       }
     },
     "mariola": {
-      "filename": "SikoMariola-StaOpMariola-8'15",
+      "filename": "mariola",
       "meta": {
         "album": "MIROLOI muziek uit Epirus - klarinet ea vpro ew9305",
         "artist": "Petros Chalkias + Napoleon Damos",
@@ -124,7 +122,7 @@
       }
     },
     "madinda": {
-      "filename": "Solo De Madinda",
+      "filename": "madinda",
       "meta": {
         "album": "Ouganda: Aux Sources Du Nil",
         "artist": "Varios",
@@ -134,7 +132,7 @@
       }
     },
     "ballade": {
-      "filename": "Ballade d'Amar Singh Avec Vieles",
+      "filename": "ballade",
       "meta": {
         "album": "Inde. Rajasthan. Musiciens Professionnels Populaires",
         "artist": "Varios",
@@ -144,7 +142,7 @@
       }
     },
     "funeraire": {
-      "filename": "CNRSMH_E_1995_018_001_001_05",
+      "filename": "funeraire",
       "meta": {
         "artist": "Dana Rappoport",
         "album":
@@ -155,7 +153,7 @@
       }
     },
     "ed-lewis": {
-      "filename": "Ed Lewis - John Henry",
+      "filename": "ed-lewis",
       "meta": {
         "album": "Presenting The Alan Lomax Coll",
         "artist": "Ed Lewis",
@@ -165,7 +163,7 @@
       }
     },
     "rueda": {
-      "filename": "La Rueda de San Miguel, Tierras Morenas, El Puerquito",
+      "filename": "rueda",
       "meta": {
         "album": "REC_Children's Songs and Games from Ecuador and Puerto Rico",
         "artist": "Varios",
@@ -175,7 +173,7 @@
       }
     },
     "agnus-dei": {
-      "filename": "Agnus Dei - 2",
+      "filename": "agnus-dei",
       "meta": {
         "album": "Corse - Polyphonies Féminines",
         "artist": "Donni di l'esiliu",
@@ -185,7 +183,7 @@
       }
     },
     "indvumo": {
-      "filename": "Bafana Benjabulo - Indvumo",
+      "filename": "indvumo",
       "meta": {
         "album": "African Vibrations 04",
         "artist": "Bafana Benjabulo",
@@ -195,7 +193,7 @@
       }
     },
     "ogbeler": {
-      "filename": "Ogbeler",
+      "filename": "og",
       "meta": {
         "album":
           "Tuvinian Singers & Musicians - Chöömej: Throat-Singing From The Center Of Asia",
@@ -206,7 +204,7 @@
       }
     },
     "are-are": {
-      "filename": "CNRSMH_E_1995_004_001_001_12",
+      "filename": "are-are",
       "meta": {
         "album": "Îles Salomon : musiques intimes et rituelles 'Are'Are",
         "artist": "Are'Are",
