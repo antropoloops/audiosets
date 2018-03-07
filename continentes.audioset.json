@@ -3,14 +3,64 @@
   "description": "Sessión Antropoloops 01",
   "url": "https://antropoloops.github.io/audiosets/continentes/",
   "bpm": 110,
-  "defaults": {
+  "config": {
+    "load": {
+      "audioFileExt": ".wav",
+      "imageFileExt": ".jpg"
+    },
     "samples": {
-      "loop": "true",
-      "files": {
-        "audio": "wav",
-        "image": "jpg"
-      }
+      "loop": "true"
+    },
+    "keyboard": {
+      "type": "gate"
     }
+  },
+  "visuals": {
+    "geoMapUrl": "https://unpkg.com/world-atlas@1.1.4/world/110m.json",
+    "layout": [
+      [
+        "ossie",
+        "nubian",
+        "mississipi",
+        "madinda",
+        "ed-lewis",
+        "indvumo",
+        "orillas",
+        "tabla",
+        "camino"
+      ],
+      [
+        "ballade",
+        "rueda",
+        "ogbeler",
+        "mocita",
+        "pae",
+        "mariola",
+        "funeraire",
+        "agnus-dei",
+        "are-are"
+      ]
+    ]
+  },
+  "keyboard": {
+    "q": { "sample": "ossie", "type": "toggle" },
+    "w": { "sample": "orillas" },
+    "e": { "sample": "mocita" },
+    "r": { "sample": "nubian" },
+    "t": { "sample": "tabla" },
+    "y": { "sample": "pae" },
+    "a": { "sample": "mississipi", "type": "toggle" },
+    "s": { "sample": "camino" },
+    "d": { "sample": "mariola" },
+    "f": { "sample": "madinda" },
+    "g": { "sample": "ballade" },
+    "h": { "sample": "funeraire" },
+    "z": { "sample": "ed-lewis" },
+    "x": { "sample": "rueda", "type": "toggle" },
+    "c": { "sample": "agnus-dei" },
+    "v": { "sample": "indvumo" },
+    "b": { "sample": "ogbeler" },
+    "n": { "sample": "are-are" }
   },
   "pads": {
     "titles": {
@@ -22,23 +72,20 @@
         "Asia",
         "Oceanía"
       ],
-      "rows": []
+      "rows": ["cabeza", "cuerpo", "pies"]
     },
-    "layout": [
-      ["ossie", "nubian", "mississipi", "madinda", "ed-lewis", "indvumo"],
-      ["cumbia", "tabla", "camino", "ballade", "la-rueda", "ogbeler"],
-      ["mocita", "pae", "mariola", "funeraire", "agnus-dei", "are-are"]
-    ]
+    "layout": []
   },
   "samples": {
     "ossie": {
-      "filename": "filename",
+      "filename": "ossie",
       "meta": {
         "album": "Count Ossie & The Mystic Revelation Of Rastafari",
         "artist": "Count ossie",
         "country": "Jamaica",
         "title": "Ethiopian Serenade",
-        "year": "2009"
+        "year": "2009",
+        "lnglat": [-77.297508, 18.109581]
       }
     },
     "orillas": {
@@ -48,7 +95,8 @@
         "artist": "Andres Landero y Su Conjunto",
         "country": "Colombia",
         "title": "Cumbia en la India",
-        "year": "2009"
+        "year": "2009",
+        "lnglat": [-74.29733299999998, 4.570868]
       }
     },
     "mocita": {
@@ -58,7 +106,8 @@
         "artist": "El Agujetas",
         "country": "España",
         "title": "De una mocita. Bulerias",
-        "year": "1975"
+        "year": "1975",
+        "lnglat": [-3.7492200000000366, 40.46366700000001]
       }
     },
     "nubian": {
@@ -68,7 +117,8 @@
         "artist": "Varios",
         "country": "Egipto",
         "title": "Nubian Rhythms",
-        "year": "1998"
+        "year": "1998",
+        "lnglat": [30.802498000000014, 26.820553]
       }
     },
     "tabla": {
@@ -78,7 +128,8 @@
         "artist": "Khamisu Khan",
         "country": "Pakistan",
         "title": "Percussion sur Tabla et Ghara",
-        "year": "1979"
+        "year": "1979",
+        "lnglat": [69.34511599999996, 30.375321]
       }
     },
     "pae": {
@@ -88,7 +139,8 @@
         "artist": "Te Hia'Ai Ora",
         "country": "Polinesia",
         "title": "Pae",
-        "year": "1965"
+        "year": "1965",
+        "lnglat": [-149.456815, -17.649632]
       }
     },
     "mississipi": {
@@ -98,7 +150,8 @@
         "artist": "Mississippi John Hurt",
         "country": "78 rpm",
         "title": "Stack O Lee Blues",
-        "year": "1928"
+        "year": "1928",
+        "lnglat": [-89.39852830000001, 32.3546679]
       }
     },
     "camino": {
@@ -108,7 +161,8 @@
         "artist": "Atahualpa Yupanqui",
         "country": "Argentina",
         "title": "Camino en los valles",
-        "year": "1942"
+        "year": "1942",
+        "lnglat": [-63.616671999999994, -38.416097]
       }
     },
     "mariola": {
@@ -118,7 +172,8 @@
         "artist": "Petros Chalkias + Napoleon Damos",
         "country": "Grecia",
         "title": "SikoMariola-StaOpMariola",
-        "year": "1993"
+        "year": "1993",
+        "lnglat": [21.824311999999964, 39.074208]
       }
     },
     "madinda": {
@@ -128,7 +183,8 @@
         "artist": "Varios",
         "country": "Uganda",
         "title": "Solo De Madinda",
-        "year": "1992"
+        "year": "1992",
+        "lnglat": [32.290275000000065, 1.373333]
       }
     },
     "ballade": {
@@ -138,7 +194,8 @@
         "artist": "Varios",
         "country": "Rajastan",
         "title": "Ballade D'Amar Singh Avec Vièles Sarangi",
-        "year": "1994"
+        "year": "1994",
+        "lnglat": [74.21793260000004, 27.0238036]
       }
     },
     "funeraire": {
@@ -149,7 +206,8 @@
           "1991-1994 - Indonésie - Toraja. Funérailles et fêtes de fécondité",
         "country": "Indonesia",
         "title": "Ronde funéraire",
-        "year": "1991"
+        "year": "1991",
+        "lnglat": [113.92132700000002, -0.789275]
       }
     },
     "ed-lewis": {
@@ -159,7 +217,8 @@
         "artist": "Ed Lewis",
         "country": "Estados Unidos",
         "title": "John Henry",
-        "year": "1947"
+        "year": "1947",
+        "lnglat": [-95.71289100000001, 37.09024]
       }
     },
     "rueda": {
@@ -169,7 +228,8 @@
         "artist": "Varios",
         "country": "Mexico",
         "title": "La rueda de San Miguel",
-        "year": "1977"
+        "year": "1977",
+        "lnglat": [-102.55278399999997, 23.634501]
       }
     },
     "agnus-dei": {
@@ -179,7 +239,8 @@
         "artist": "Donni di l'esiliu",
         "country": "Italia",
         "title": "Agnus Dei - 2",
-        "year": "2000"
+        "year": "2000",
+        "lnglat": [12.567379999999957, 41.87194]
       }
     },
     "indvumo": {
@@ -189,7 +250,8 @@
         "artist": "Bafana Benjabulo",
         "country": "Sudafrica",
         "title": "Indvumo",
-        "year": "2004"
+        "year": "2004",
+        "lnglat": [22.937505999999985, -30.559482]
       }
     },
     "ogbeler": {
@@ -200,7 +262,8 @@
         "artist": "folkblog.in.ua - Tuva Ensemble",
         "country": "Tuva",
         "title": "Ögbeler",
-        "year": "1993"
+        "year": "1993",
+        "lnglat": [95.62601719999998, 51.8872669]
       }
     },
     "are-are": {
@@ -210,7 +273,8 @@
         "artist": "Are'Are",
         "country": "Islas Salomon",
         "title": "Chants de femmes : chant énumératif",
-        "year": "1969"
+        "year": "1969",
+        "lnglat": [160.15619400000003, -9.64571]
       }
     }
   }
